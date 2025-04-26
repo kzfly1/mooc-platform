@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "image": "course-1.jpg",
+    "title": "Computer Science",
+    "price": 199.99,
+    "language": "English",
+    "duration": 10,
+    "location": "Online"
+  },
+  {
+    "id": 2,
+    "image": "course-2.jpg",
+    "title": "Python Fundamentals",
+    "price": 29.99,
+    "language": "English",
+    "duration": 10,
+    "location": "Online"
+  },
+  {
+    "id": 3,
+    "image": "course-3.jpg",
+    "title": "React for Beginners",
+    "price": 199.99,
+    "language": "English",
+    "duration": 10,
+    "location": "Online",
+    "isNew": true
+  },
+  {
+    "id": 4,
+    "image": "course-4.jpg",
+    "title": "Introduction to Git",
+    "price": 199.99,
+    "language": "English",
+    "duration": 10,
+    "location": "Online"
+  },
+  {
+    "id": 5,
+    "image": "course-5.jpg",
+    "title": "CSS Fundamentals",
+    "price": 199.99,
+    "language": "English",
+    "duration": 10,
+    "location": "Online"
+  }
+]
