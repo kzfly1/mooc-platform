@@ -1,10 +1,6 @@
 import "./index.scss";
-import { useState } from "react";
-import courseList from "../../mock-data/course-list.mock.json";
 
-const CourseCardList = () => {
-  const [courses, setCourses] = useState(courseList);
-
+function CourseCardList({ courses }) {
   return (
     <div className="course-list-container">
       {courses.map(course => {
@@ -32,6 +28,6 @@ const CourseCardList = () => {
       })}
     </div>
   );
-};
+}
 
 export default CourseCardList;
