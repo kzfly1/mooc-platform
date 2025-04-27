@@ -6,7 +6,8 @@
     "price": 199.99,
     "language": "English",
     "duration": 10,
-    "location": "Online"
+    "location": "Online",
+    "difficulty": "Beginner"
   },
   {
     "id": 2,
@@ -15,17 +16,19 @@
     "price": 29.99,
     "language": "English",
     "duration": 10,
-    "location": "Online"
+    "location": "Online",
+    "difficulty": "Beginner"
   },
   {
     "id": 3,
     "image": "course-3.jpg",
-    "title": "React for Beginners",
+    "title": "React.js ",
     "price": 199.99,
     "language": "English",
     "duration": 10,
     "location": "Online",
-    "isNew": true
+    "isNew": true,
+    "difficulty": "Intermediate"
   },
   {
     "id": 4,
@@ -34,7 +37,8 @@
     "price": 199.99,
     "language": "English",
     "duration": 10,
-    "location": "Online"
+    "location": "Online",
+    "difficulty": "Beginner"
   },
   {
     "id": 5,
@@ -43,6 +47,7 @@
     "price": 199.99,
     "language": "English",
     "duration": 10,
-    "location": "Online"
+    "location": "Online",
+    "difficulty": "Beginner"
   }
 ]
