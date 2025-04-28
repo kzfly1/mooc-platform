@@ -1,9 +1,9 @@
-function CourseImage({ image, alt }) {
+function CourseImage({ image, title }) {
   return (
     <img
       src={require(`../../assets/images/${image}`)}
       className="card-img-top"
-      alt={alt}
+      alt={title}
     />
   );
 }

@@ -24,7 +24,7 @@ function CourseCard({ course }) {
   return (
     <div key={course.id} className="card card-item" style={{ width: "18rem" }}>
       {course.isNew && <NewBadge />}
-      <CourseImage image={course.image} alt="course-image" />
+      <CourseImage image={course.image} alt={course.title} />
       <div className="card-body">
         <h5 className="card-title">{course.title}</h5>
         <p className="card-text">
