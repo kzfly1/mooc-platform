@@ -8,12 +8,6 @@ import ReviewConfirmation from "../review-confirmation";
 import { useState } from "react";
 
 function CourseCard({ course }) {
-  const difficultyColorMap = {
-    Beginner: "btn-success",
-    Intermediate: "btn-primary",
-    Advanced: "btn-danger",
-  };
-
   const [reviewMode, setReviewMode] = useState(false);
   const [reviewSubmitted, setReviewSubmitted] = useState(false);
   const [enrollmentCount, setEnrollmentCount] = useState(0);
