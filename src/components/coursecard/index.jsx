@@ -38,24 +38,24 @@ function CourseCard({ course }) {
         />
         <EnrollmentInfo count={enrollmentCount} />
 
-        {!reviewSubmitted ? (
-          !reviewMode ? (
-            <button
-              className="btn btn-outline-primary mt-2"
-              onClick={() => setReviewMode(true)}
-            >
-              Leave a Review
-            </button>
-          ) : (
-            <ReviewForm
-              reviewText={reviewText}
-              onChange={e => setReviewText(e.target.value)}
-              onSubmit={handleReviewSubmit}
-            />
-          )
-        ) : (
-          <ReviewConfirmation />
+        {!reviewSubmitted && !reviewMode && (
+          <button
+            className="btn btn-outline-primary mt-2"
+            onClick={() => setReviewMode(true)}
+          >
+            Leave a Review
+          </button>
         )}
+
+        {!reviewSubmitted && reviewMode && (
+          <ReviewForm
+            reviewText={reviewText}
+            onChange={e => setReviewText(e.target.value)}
+            onSubmit={handleReviewSubmit}
+          />
+        )}
+
+        {reviewSubmitted && <ReviewConfirmation />}
       </div>
     </div>
   );
